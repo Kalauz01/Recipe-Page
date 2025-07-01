@@ -2,4 +2,64 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
+    color: #333;
+    font-family: 'Outfit', 'Young Serif';
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+    width: 700px;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 10vh;
+    border-radius: 18px;
+}
+
+.mainPhoto {
+    max-width: 700px;
+    height: 350px;
+    border-radius: 12px;
+}
+
+.recipe h1{
+    font-family: 'Young Serif';
+    font-weight:normal;
+    font-size: 2.5rem;
+}
+
+.recipe p{
+    font-family: 'Outfit';
+    font-weight: lighter;
+}
+
+.prepTime {
+    background-color: #f8f8f8;
+    margin-top: 15px;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.prepTime p {
+    font-family: 'Outfit';
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.prepTime ul li {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.prepTime .label {
+    font-weight: bold;
+    margin-right: 5px;
 }
